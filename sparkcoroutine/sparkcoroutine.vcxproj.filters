@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{68568469-01a1-42dd-8f0c-1e5b7d9db8ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="publish">
+      <UniqueIdentifier>{6fbee90d-e67f-48fd-ba16-668fb619f0c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="publish\sparkcoroutine">
+      <UniqueIdentifier>{6ca49d80-5c84-478a-9b38-4ca74226d6b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="simple.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sparkcoroutine\coroutine.hpp">
+      <Filter>publish\sparkcoroutine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
